@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1gbhoMaq95NS2l9YFMMWXR8FMLNTZC4KpQutsw2V8GA=",
+  "Source": "OrderDeliverySystemAPi",
+  "BasePath": "_content/OrderDeliverySystemAPi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

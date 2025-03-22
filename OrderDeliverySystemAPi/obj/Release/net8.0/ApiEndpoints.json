@@ -1,0 +1,2037 @@
+[
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Admin.AdminController",
+    "Method": "GetAdmin",
+    "RelativePath": "api/Admins/GetAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Admin.AdminService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Admin.AdminController",
+    "Method": "UpdateAdmin",
+    "RelativePath": "api/Admins/UpdateAdmin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedAdmin",
+        "Type": "OrderDeliverySystemDataAccessLayer.Admin.AdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Area.AreaController",
+    "Method": "UpdateArea",
+    "RelativePath": "api/Areas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedArea",
+        "Type": "OrderDeliverySystemDataAccessLayer.Area.AreaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Area.AreaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Area.AreaController",
+    "Method": "Delete",
+    "RelativePath": "api/Areas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Area.AreaController",
+    "Method": "AddNewArea",
+    "RelativePath": "api/Areas/AddNewArea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewAreaDTO",
+        "Type": "OrderDeliverySystemDataAccessLayer.Area.AreaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Area.AreaService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Area.AreaController",
+    "Method": "GetAllAreas",
+    "RelativePath": "api/Areas/GetAllAreas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Area.AreaService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Area.AreaController",
+    "Method": "GetArea",
+    "RelativePath": "api/Areas/GetArea{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Area.AreaService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetArea"
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerBalanceController.CustomerBalanceController",
+    "Method": "CreditDebitBalance",
+    "RelativePath": "api/CustomerBalance/CreditBalance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedBalance",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerBalance.CustomerBalanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerBalanceController.CustomerBalanceController",
+    "Method": "DebitBalance",
+    "RelativePath": "api/CustomerBalance/DebitBalance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedBalance",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerBalance.CustomerBalanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerBalanceController.CustomerBalanceController",
+    "Method": "GetCurrentBalance",
+    "RelativePath": "api/CustomerBalance/GetCurrentBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerBalance.CustomerBalanceDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerPermissions.CustomerPermissionsController",
+    "Method": "ChangeCustomerPermissions",
+    "RelativePath": "api/CustomerPermissions/ChangeCustomerPermissions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changedCustomerPermissions",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerPermissions.CustomerPermissionsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerPermissions.CustomerPermissionsController",
+    "Method": "GetCustomerPermissions",
+    "RelativePath": "api/CustomerPermissions/GetCustomerPermissions{CustomerID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerPermissions.CustomerPermissionsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerController",
+    "Method": "AddNewCustomer",
+    "RelativePath": "api/Customers/AddNewCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDTO",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerData",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "api/Customers/DeleteCustomer{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "api/Customers/GetAllCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Customer.CustomerService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllCustomers"
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerController",
+    "Method": "Find",
+    "RelativePath": "api/Customers/GetCustomer{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Customer.CustomerService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCustomer"
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/Customers/UpdateCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedCustomer",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Customer.CustomerService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerTransaction.CustomerTransactionController",
+    "Method": "AddNewCustomerTrasaction",
+    "RelativePath": "api/CustomerTransActions/AddNewcustomerTransactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewCustomerTransaction",
+        "Type": "OrderDeliverySystemDataAccessLayer.Customer.CustomerTransactions.CustomerTranactionsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Customer.CustomerTransactions.CustomerTranactionsService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Customer.CustomerTransaction.CustomerTransactionController",
+    "Method": "GetAllCustomerTransActions",
+    "RelativePath": "api/CustomerTransActions/GetAllCustomerTransactions{CustomerID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Customer.CustomerTransactions.CustomerTranactionsService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverEarningController",
+    "Method": "AddNewDriver",
+    "RelativePath": "api/DriverEarning/AddNewDriverRating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDriver",
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverEarningDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Driver.DriverService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverEarningController",
+    "Method": "GetDriverAllEarning",
+    "RelativePath": "api/DriverEarning/GetAllDriverEarning{DriverID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DriverID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverEarningDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverEarningController",
+    "Method": "GetDriverEarningOrderID",
+    "RelativePath": "api/DriverEarning/GetDriverEarning{OrderID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverEarningDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverEarningController",
+    "Method": "Update",
+    "RelativePath": "api/DriverEarning/UpdateDriverRating",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedDriver",
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverEarningDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Driver.DriverService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverPermissions.DriverPermissionsController",
+    "Method": "Update",
+    "RelativePath": "api/DriverPermissions/ChangeDriverPermissions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedDriverPermissions",
+        "Type": "OrderDeliverySystemDataAccessLayer.DriverPermissions.DriverPermissionsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverPermissions.DriverPermissionsController",
+    "Method": "GetDriver",
+    "RelativePath": "api/DriverPermissions/GetDriverPermissions{DriverID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DriverID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.DriverPermissions.DriverPermissionsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverRating.DriverRatingController",
+    "Method": "AddNewD",
+    "RelativePath": "api/DriverRatings/AddNewDriverRating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDriver",
+        "Type": "OrderDeliverySystemDataAccessLayer.DriverRating.DriverRatingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.DriverRating.DriverRatingService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverRating.DriverRatingController",
+    "Method": "Delete",
+    "RelativePath": "api/DriverRatings/DeleteDriverRating{OrderID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverRating.DriverRatingController",
+    "Method": "GetAll",
+    "RelativePath": "api/DriverRatings/GetAllDriverRatings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.DriverRating.DriverRatingService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverRating.DriverRatingController",
+    "Method": "GetDriver",
+    "RelativePath": "api/DriverRatings/GetDriverRating{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.DriverRating.DriverRatingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.DriverRating.DriverRatingController",
+    "Method": "Update",
+    "RelativePath": "api/DriverRatings/UpdateDriverRating",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedDriverRating",
+        "Type": "OrderDeliverySystemDataAccessLayer.DriverRating.DriverRatingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.DriverRating.DriverRatingService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverController",
+    "Method": "AddNewDriver",
+    "RelativePath": "api/Drivers/AddNewDriverRating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDriver",
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Driver.DriverService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverController",
+    "Method": "Delete",
+    "RelativePath": "api/Drivers/DeleteDriverRating{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverController",
+    "Method": "GetAll",
+    "RelativePath": "api/Drivers/GetAllDriverRating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Driver.DriverService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverController",
+    "Method": "GetDriver",
+    "RelativePath": "api/Drivers/GetDriverRating{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Driver.DriverController",
+    "Method": "Update",
+    "RelativePath": "api/Drivers/UpdateDriverRating",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedDriver",
+        "Type": "OrderDeliverySystemDataAccessLayer.Driver.DriverDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Driver.DriverService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeePermissionsController",
+    "Method": "ChangeEmployeePermissions",
+    "RelativePath": "api/EmployeePermissions/ChangeEmployeePermissions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ChangedEmployeePermissins",
+        "Type": "OrderDeliverySystemDataAccessLayer.Employee.EmployeePermissionsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeePermissionsController",
+    "Method": "GetCustomerPermissions",
+    "RelativePath": "api/EmployeePermissions/GetEmployeePermissions{EmployeeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Employee.EmployeePermissionsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeeController",
+    "Method": "AddNewEmployee",
+    "RelativePath": "api/Employees/AddNewEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDTO",
+        "Type": "OrderDeliverySystemDataAccessLayer.Employee.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Employee.EmployeeData",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employees/DeleteEmployee{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeeController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/Employees/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Employee.EmployeeService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllEmployees"
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeeController",
+    "Method": "Find",
+    "RelativePath": "api/Employees/GetEmployee{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Employee.EmployeeService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetEmployee"
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Employee.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Employees/UpdateEmployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedEmployee",
+        "Type": "OrderDeliverySystemDataAccessLayer.Employee.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Employee.EmployeeService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.NewFolder.ExpenseController",
+    "Method": "AddNewExpense",
+    "RelativePath": "api/Expense/AddNewExpense",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Expense",
+        "Type": "OrderDeliverySystemDataAccessLayer.Expense.ExpenseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.NewFolder.ExpenseController",
+    "Method": "Delete",
+    "RelativePath": "api/Expense/DeleteExpense{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.NewFolder.ExpenseController",
+    "Method": "GetAllExpenses",
+    "RelativePath": "api/Expense/GeteAllExpenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Expense.ExpenseService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.NewFolder.ExpenseController",
+    "Method": "Find",
+    "RelativePath": "api/Expense/GetExpense{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Expense.ExpenseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.NewFolder.ExpenseController",
+    "Method": "UpdateExpense",
+    "RelativePath": "api/Expense/UpdateExpense",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedExpense",
+        "Type": "OrderDeliverySystemDataAccessLayer.Expense.ExpenseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Expense.ExpenseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Orders.OrderController",
+    "Method": "AddNewArea",
+    "RelativePath": "api/Order/AddNewPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewOrder",
+        "Type": "OrderDeliverySystemDataAccessLayer.Order.OrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Order.OrderDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Orders.OrderController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Order/DeleteOrder{OrderID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Orders.OrderController",
+    "Method": "GetAllPeople",
+    "RelativePath": "api/Order/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemDataAccessLayer.Order.OrderDTO, OrderDeliverySystemDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Orders.OrderController",
+    "Method": "OrderByID",
+    "RelativePath": "api/Order/GetOrder{OrderID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Order.OrderDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Orders.OrderController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Order/UpdateOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedOrder",
+        "Type": "OrderDeliverySystemDataAccessLayer.Order.OrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.Order.OrderDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Person.PersonController",
+    "Method": "AddNewArea",
+    "RelativePath": "api/People/AddNewPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewPerson",
+        "Type": "OrderDeliverySystemDataAccessLayer.People.DataAccessPersonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Person.PersonService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Person.PersonController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/People/DeletePerson{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Person.PersonController",
+    "Method": "GetAllPeople",
+    "RelativePath": "api/People/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.Person.PersonService, OrderDeliverySystemBusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Person.PersonController",
+    "Method": "GetPersonById",
+    "RelativePath": "api/People/GetPerson{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.Person.PersonService",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Person.PersonController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/People/UpdatePerson{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Updatedperson",
+        "Type": "OrderDeliverySystemDataAccessLayer.People.DataAccessPersonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.People.DataAccessPersonDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReportDeliverySystemAPi.Controllers.Reports.ReportController",
+    "Method": "AddNewReport",
+    "RelativePath": "api/Report/AddNewPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ReportDeliverySystemDataAccessLayer.Report.ReportDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReportDeliverySystemAPi.Controllers.Reports.ReportController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Report/DeleteReport{ReportID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReportID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReportDeliverySystemAPi.Controllers.Reports.ReportController",
+    "Method": "GetAllReports",
+    "RelativePath": "api/Report/GetAllReports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ReportDeliverySystemDataAccessLayer.Report.ReportDTO, OrderDeliverySystemDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReportDeliverySystemAPi.Controllers.Reports.ReportController",
+    "Method": "GetReport",
+    "RelativePath": "api/Report/GetReport{ReportID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReportID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReportDeliverySystemDataAccessLayer.Report.ReportDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Revenue.RevenueController",
+    "Method": "AddNewArea",
+    "RelativePath": "api/Revenue/AddNewRevenue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewOrder",
+        "Type": "RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Revenue.RevenueController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Revenue/DeleteRevenue{RevenueID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RevenueID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Revenue.RevenueController",
+    "Method": "GetAllPeople",
+    "RelativePath": "api/Revenue/GetAllRevenues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO, OrderDeliverySystemDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Revenue.RevenueController",
+    "Method": "OrderByID",
+    "RelativePath": "api/Revenue/GetRevenue{RevenueID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RevenueID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Revenue.RevenueController",
+    "Method": "UpdateRevenue",
+    "RelativePath": "api/Revenue/UpdateRevenue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedRevenue",
+        "Type": "RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RevenueDeliverySystemDataAccessLayer.Revenue.RevenueDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Salary.SalaryController",
+    "Method": "AddNewArea",
+    "RelativePath": "api/Salary/AddNewSalary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewOrder",
+        "Type": "OrderDeliverySystemBusinessLayer.salary.SalaryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.salary.SalaryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Salary.SalaryController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Salary/DeleteSalary{PersonID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Salary.SalaryController",
+    "Method": "GetAllSalaries",
+    "RelativePath": "api/Salary/GetAllSalaries{PersonID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemBusinessLayer.salary.SalaryDTO, OrderDeliverySystemDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Salary.SalaryController",
+    "Method": "OrderByID",
+    "RelativePath": "api/Salary/GetSalary{PersonID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.salary.SalaryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Salary.SalaryController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Salary/UpdateOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedSalary",
+        "Type": "OrderDeliverySystemBusinessLayer.salary.SalaryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemBusinessLayer.salary.SalaryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.SystemSetting.SystemSetting",
+    "Method": "AddNew",
+    "RelativePath": "api/SystemSetting/AddNewSetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewSystemSetting",
+        "Type": "OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.SystemSetting.SystemSetting",
+    "Method": "DeleteSetting",
+    "RelativePath": "api/SystemSetting/DeleteSetting{SettingID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SettingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.SystemSetting.SystemSetting",
+    "Method": "GetAllSalaries",
+    "RelativePath": "api/SystemSetting/GetAllSystemSetting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO, OrderDeliverySystemDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.SystemSetting.SystemSetting",
+    "Method": "GetSystemSettinByID",
+    "RelativePath": "api/SystemSetting/GetSetting{SettingID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SettingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.SystemSetting.SystemSetting",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/SystemSetting/UpdateSetting",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatedSystemSetting",
+        "Type": "OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemDataAccessLayer.SystemSetting.SystemSettingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Login.testRegestrion",
+    "Method": "Get",
+    "RelativePath": "api/testRegestrion/testRegesteration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewReg",
+        "Type": "OrderDeliverySystemAPi.Controllers.Login.RegestrationInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OrderDeliverySystemAPi.Controllers.Login.RegestrationInfoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrderDeliverySystemAPi.Controllers.Login.LoginController",
+    "Method": "Login",
+    "RelativePath": "LoginByUserNameAndPassword",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
